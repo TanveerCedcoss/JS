@@ -119,3 +119,7 @@ console.log(myStr4);
 let myStr5='This is the first sentence.';
 myStr5 +=' This is the second sentence.';
 console.log(myStr5);
+
+const myName3 = "freeCodeCamp";
+const myStr6 = "My name is " + myName+' and I am well!';
+console.log(myStr6);
