@@ -135,3 +135,5 @@ const lastName2 = "Lovelace";
 
 lastNameLength=lastName2.length
 console.log(lastNameLength);
+
+firstLetterOfLastName = lastName2[0];
