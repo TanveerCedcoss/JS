@@ -50,3 +50,8 @@ let myVar = 87;
 
 myVar++;
 console.log(myVar);
+
+let myVar1 = 11;
+
+myVar1--;
+console.log(myVar);
