@@ -123,3 +123,8 @@ console.log(myStr5);
 const myName3 = "freeCodeCamp";
 const myStr6 = "My name is " + myName+' and I am well!';
 console.log(myStr6);
+
+const someAdjective = "awesome!!";
+let myStr7 = "Learning to code is ";
+myStr7 += someAdjective;
+console.log(myStr7);
