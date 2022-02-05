@@ -94,3 +94,12 @@ a3 *= 5;
 b3 *= 3;
 c3 *= 10;
 console.log(a3,b3,c3);
+
+let a4 = 48;
+let b4 = 108;
+let c4 = 33;
+
+a4 /= 12;
+b4 /= 4;
+c4 /= 11;
+console.log(a4,b4,c4);
