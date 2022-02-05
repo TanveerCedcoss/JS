@@ -197,7 +197,7 @@ const removedFromMyArray =myArray7.pop();
 console.log(removedFromMyArray);
 
 const myArray8 = [["John", 23], ["dog", 3]];
-removedFromMyArray = myArray8.shift();
+varremovedFromMyArray2 = myArray8.shift();
 console.log(removedFromMyArray);
 
 const myArray9 = [["John", 23], ["dog", 3]];
@@ -228,3 +228,25 @@ function timesFive(a){
 console.log(timesFive(5));
 timesFive(10);
 timesFive(0);
+
+let myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+fun1();
+fun2(); 
