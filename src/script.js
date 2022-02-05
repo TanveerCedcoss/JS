@@ -137,3 +137,10 @@ lastNameLength=lastName2.length
 console.log(lastNameLength);
 
 firstLetterOfLastName = lastName2[0];
+console.log(firstLetterOfLastName)
+
+
+let myStr8 = "Jello World";
+
+myStr8 = "Hello World"; 
+console.log(myStr8);
