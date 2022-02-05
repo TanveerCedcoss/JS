@@ -257,6 +257,15 @@ function myLocalScope() {
 
     console.log('inside myLocalScope', myVar);
   }
-  myLocalScope();
+myLocalScope();
 
-  console.log('outside myLocalScope', myVar); 
+console.log('outside myLocalScope', myVar); 
+
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  const outerWear = "sweater";
+  return outerWear;
+}
+
+console.log(myOutfit()); 
