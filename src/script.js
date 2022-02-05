@@ -147,3 +147,6 @@ console.log(myStr8);
 
 const thirdLetterOfLastName = lastName2[2]; 
 console.log(thirdLetterOfLastName);
+
+const lastLetterOfLastName = lastName2[lastName2.length-1];
+console.log(lastLetterOfLastName)
