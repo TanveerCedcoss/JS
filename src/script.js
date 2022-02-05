@@ -165,3 +165,6 @@ console.log(wordBlanks);
 
 const myArray = ["string",12];
 console.log(myArray);
+
+const myArray2 = [["string1",1],["string2",2]];
+console.log(myArray2);
