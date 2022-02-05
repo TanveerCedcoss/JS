@@ -2,7 +2,6 @@
 /* This is my second
 comment*/
 var ourName;
-var a;
-a=7;
+var a=9;
 var b;
 b=a
