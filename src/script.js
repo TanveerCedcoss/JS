@@ -115,3 +115,7 @@ console.log(myStr3);
 
 const myStr4 = "This is the start." + ' This is the end.'; 
 console.log(myStr4);
+
+let myStr5='This is the first sentence.';
+myStr5 +=' This is the second sentence.';
+console.log(myStr5);
