@@ -150,3 +150,6 @@ console.log(thirdLetterOfLastName);
 
 const lastLetterOfLastName = lastName2[lastName2.length-1];
 console.log(lastLetterOfLastName)
+
+const secondToLastLetterOfLastName = lastName2[lastName2.length-2];
+console.log(secondToLastLetterOfLastName)
