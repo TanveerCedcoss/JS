@@ -191,3 +191,7 @@ const myArray5 = [
  const myArray6 = [["John", 23], ["cat", 2]];
  myArray6.push(["dog",3]);
  console.log(myArray6);
+
+const myArray7 = [["John", 23], ["cat", 2]]; 
+const removedFromMyArray =myArray7.pop();
+console.log(removedFromMyArray);
