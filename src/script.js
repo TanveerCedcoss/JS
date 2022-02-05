@@ -212,6 +212,11 @@ console.log(myList3);
 function reusableFunction(){
     console.log("Hi World");
   }
+reusableFunction();
 
-  reusableFunction();
+function functionWithArgs(a,b) {
+    console.log(Number(a)+Number(b));
+  }
 
+functionWithArgs(1,3);
+functionWithArgs(7,9);
