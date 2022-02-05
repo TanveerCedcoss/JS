@@ -103,3 +103,6 @@ a4 /= 12;
 b4 /= 4;
 c4 /= 11;
 console.log(a4,b4,c4);
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
+console.log(myStr);
