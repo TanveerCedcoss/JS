@@ -220,3 +220,11 @@ function functionWithArgs(a,b) {
 
 functionWithArgs(1,3);
 functionWithArgs(7,9);
+
+function timesFive(a){
+    return 5*a;
+  }
+
+console.log(timesFive(5));
+timesFive(10);
+timesFive(0);
