@@ -104,8 +104,11 @@ b4 /= 4;
 c4 /= 11;
 console.log(a4,b4,c4);
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
-console.log(myStr);
+const myStr1 = "I am a \"double quoted\" string inside \"double quotes\"."; 
+console.log(myStr1);
 
-const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
-console.log(myStr);
+const myStr2 = '<a href="http://www.example.com" target="_blank">Link</a>';
+console.log(myStr2);
+
+const myStr3 = "FirstLine\n\t\\SecondLine\nThirdLine";
+console.log(myStr3);
