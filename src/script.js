@@ -112,3 +112,6 @@ console.log(myStr2);
 
 const myStr3 = "FirstLine\n\t\\SecondLine\nThirdLine";
 console.log(myStr3);
+
+const myStr4 = "This is the start." + ' This is the end.'; 
+console.log(myStr4);
