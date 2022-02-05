@@ -206,3 +206,6 @@ myArray9.shift();
 myArray9.unshift(["Paul", 35]);
 console.log(myArray9);
 
+const myList3 = [["chocolate",15],["cold drink",3],["coffee",1],["snacks",4],["bottle",2]];
+console.log(myList3);
+
