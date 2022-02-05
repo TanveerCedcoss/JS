@@ -209,3 +209,9 @@ console.log(myArray9);
 const myList3 = [["chocolate",15],["cold drink",3],["coffee",1],["snacks",4],["bottle",2]];
 console.log(myList3);
 
+function reusableFunction(){
+    console.log("Hi World");
+  }
+
+  reusableFunction();
+
