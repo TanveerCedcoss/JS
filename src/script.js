@@ -169,7 +169,11 @@ console.log(myArray);
 const myArray2 = [["string1",1],["string2",2]];
 console.log(myArray2);
 
-const myArray = [50, 60, 70];
-var myData= myArray[0];
-console.log(myData);
+const myArray3 = [50, 60, 70];
+var myData3= myArray3[0];
+console.log(myData3);
+
+const myArray4 = [18, 64, 99];
+myArray4[0]= 45;
+
 
