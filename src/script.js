@@ -250,3 +250,13 @@ function fun2() {
 
 fun1();
 fun2(); 
+
+function myLocalScope() {
+
+    const myVar=0;
+
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+
+  console.log('outside myLocalScope', myVar); 
