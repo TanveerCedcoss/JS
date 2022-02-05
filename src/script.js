@@ -121,7 +121,7 @@ myStr5 +=' This is the second sentence.';
 console.log(myStr5);
 
 const myName3 = "freeCodeCamp";
-const myStr6 = "My name is " + myName+' and I am well!';
+const myStr6 = "My name is " + myName3+' and I am well!';
 console.log(myStr6);
 
 const someAdjective = "awesome!!";
@@ -144,3 +144,6 @@ let myStr8 = "Jello World";
 
 myStr8 = "Hello World"; 
 console.log(myStr8);
+
+const thirdLetterOfLastName = lastName2[2]; 
+console.log(thirdLetterOfLastName);
