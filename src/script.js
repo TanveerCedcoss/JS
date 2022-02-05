@@ -40,8 +40,8 @@ console.log(sum)
 const difference = 45 - 33;
 console.log(difference);
 
-const product = 8 * 10;
-console.log(product);
+const product1 = 8 * 10;
+console.log(product1);
 
 const quotient = 66 / 33;
 console.log(quotient);
@@ -58,3 +58,6 @@ console.log(myVar);
 
 var myDecimal=5.7;
 console.log(myDecimal);
+
+const product = 2.0 * 2.5;
+console.log(product);
