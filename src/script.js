@@ -128,3 +128,10 @@ const someAdjective = "awesome!!";
 let myStr7 = "Learning to code is ";
 myStr7 += someAdjective;
 console.log(myStr7);
+
+
+let lastNameLength = 0;
+const lastName2 = "Lovelace";
+
+lastNameLength=lastName2.length
+console.log(lastNameLength);
